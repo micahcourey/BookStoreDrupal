@@ -1,25 +1,30 @@
-Drupal Code Review
-==================
+Book Store
+==========
 
 By Micah Courey, 16-Oct-2015
 
-A website powered by Drupal
+A website for a book store powered by Drupal
 
 Setup
 ----------
 * Clone repository:
 ```console
-$ git clone https://github.com/micahcourey/Drupal.git
+$ git clone https://github.com/micahcourey/BookStoreDrupal.git
 ```
-* Start server inside project folder:
+* Start server inside project folder
 * Import database from sites/database folder
-* database username: user1 password: epicodus
-* go to you localhost address in your browser
+* Database username: user1 password: epicodus
+* go to the localhost address in your browser
 * Enjoy!
+
+Site Users
+* administrator - username: user1 password: epicodus
+* Reviewer - username: bookman password: epicodus
+* authenticated user - username: bookbuyer password: epicodus
 
 Technologies Used
 ----------
-Drupal
+Drupal 7
 
 License
 ----------
